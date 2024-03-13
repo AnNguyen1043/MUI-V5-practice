@@ -1,9 +1,10 @@
 import React from 'react'
-
+import {Button} from "@mui/material"
+import SearchAppBar from './components/SearchAppBar'
 function App() {
   return (
     <div>
-      <h1>Hello world</h1>
+      <SearchAppBar/>
     </div>
   )
 }
